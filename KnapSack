@@ -1,5 +1,4 @@
 #include<stdio.h>;
-#include<conio.h>;
 void knapsack();
 
 int max(int,int);
@@ -23,7 +22,6 @@ scanf("%d",&p[i]);
 printf("\n enter the knapsack's capacity:\t ");
 scanf("%d",&m);
 knapsack();
-getch();
 }
 void knapsack()
 {
